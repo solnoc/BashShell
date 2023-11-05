@@ -1,0 +1,35 @@
+NOMRAL MODE:
+	-Enter normal mode: Esc
+	-Start writting a command: :
+	EXIT: 
+		-Normal Exit: q
+		-Exit dismissing changes: q!
+	BASH:
+		-Execute bash command X: !X
+	SAVE:
+		-Write changes to a file: w
+		-Write changes to a file and quit: wq
+	MOVING AROUND:
+		-Move X times on the Y arrow key dirrection: XY (ex: 5up ,3right)
+		-Alternative movment to arrow keys: h - left, l - right, j - down, k - up
+	
+INSERT MODE:
+	ENTER:
+		-Enter insert mode at the cursor: i
+		-Enter insert mode 1 characher after the cursor: a
+		-Create a new line after cursor line and enter insert mode on it: o
+		-Enter insert mode at the begginning of the cursor line: I
+		-Enter insert mode at the end of the cursor line: A
+		-Create a new line above the cursor line and enter insert mode on it: O
+		
+SET UP:
+	-Add number line: set number
+	-Add relative number like: set relativenumber
+	-Activate mouse: set mouse=a
+	-Set tab space to X characthers: set tabstop=X
+	-Set colorscheme X: colorscheme X
+	-Set auto indentaiion: set autoindent
+	CONFIGURATION FILE
+		-Location: ~/.vimrc
+		-Write each wanted set up command on a new line inside the config file and they will execute every time you open the vim editor becoming the new default
+
